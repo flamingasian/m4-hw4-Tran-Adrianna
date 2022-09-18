@@ -1,3 +1,51 @@
 body {
-    background-color: red; 
+    background-color: rgb(143, 0, 0); 
+    color: white;
+    max-width: 900px;
+    margin:auto
+}
+
+h1 {
+    font-size: 42px;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#nav {
+    background-color: black;
+    font-size: 26px;
+}
+
+a:link { 
+    color: red
+}
+
+a:visited {
+    color: rgb(199, 104, 104)
+}
+
+#about {
+    text-align: center;
+}
+
+h2, h3 {
+    font-size: 30px;
+}
+
+main {
+    font-size: 20px;
+}
+
+h1, h3 { 
+    text-align: center;
+}
+
+section > h2 {
+    text-decoration: underline overline;
+}
+
+h2 + ul {
+    color: rgb(253, 105, 105)
 }
